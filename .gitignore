@@ -1,0 +1,12 @@
+# generated reference data (generate_data.jl)
+data/*.h5
+
+# output of a new training (train.jl)
+/OOM/
+/NeuralFMU/
+
+# analysis outputs (analysis_*.jl)
+figures/
+hyperparameter_losses.csv
+seed_losses.csv
+structural_adaptation_trajectories.jld2
